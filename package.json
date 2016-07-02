@@ -21,7 +21,9 @@
     "commitizen": "2.8.2",
     "cz-conventional-changelog": "1.1.6"
   },
-  "commitizen": {
-    "path": "cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
