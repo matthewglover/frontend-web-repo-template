@@ -1,0 +1,27 @@
+{
+  "name": "frontend-web-repo-template",
+  "version": "1.0.0",
+  "description": "frontend web appp template repository, with tests and automated build configuration tooling",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewglover/frontend-web-repo-template.git"
+  },
+  "author": "Matt Glover <matthewglover@me.com> (https://github.com/matthewglover)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewglover/frontend-web-repo-template/issues"
+  },
+  "homepage": "https://github.com/matthewglover/frontend-web-repo-template#readme",
+  "devDependencies": {
+    "commitizen": "2.8.2",
+    "cz-conventional-changelog": "1.1.6"
+  },
+  "commitizen": {
+    "path": "cz-conventional-changelog"
+  }
+}
